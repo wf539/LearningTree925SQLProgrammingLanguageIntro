@@ -1,0 +1,15 @@
+CREATE TABLE ConferenceRooms
+(RoomID INT NOT NULL
+, Name VARCHAR(20) NOT NULL
+, Capacity INT NOT NULL)
+
+CREATE TABLE Reservations
+(ReservationID INT NOT NULL
+ , RoomID INT NOT NULL
+ , EmployeeID INT NOT NULL
+ , StartTime DATETIME NOT NULL
+ , EndTime DATETIME NOT NULL)
+
+ ALTER TABLE ConferenceRooms
+ ALTER COLUMN
+ Name VARCHAR(30) NOT NULL

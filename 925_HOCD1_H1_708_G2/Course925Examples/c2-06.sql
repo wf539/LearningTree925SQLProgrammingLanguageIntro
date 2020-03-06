@@ -1,0 +1,1 @@
+ALTER TABLE Divisions DROP COLUMN Description;
